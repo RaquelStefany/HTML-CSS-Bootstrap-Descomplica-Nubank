@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/logos/logotipo_2.png" type="image/x-icon">
+    <title>
+        Geek Shop
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav class="py-3 navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/logos/logotipo_2.png" alt="Logo GeekShop" width="40" height="40"
+                    class="d-inline-block align-top" alt="">
+                GeekShop
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">
+                        Inicio
+                    </a>
+                    <a class="nav-item nav-link" href="#destaques">
+                        Destaques
+                    </a>
+                    <a class="nav-item nav-link" href="#ultimos">
+                        Últimos Adicionados
+                    </a>
+                    <a class="nav-item nav-link" href="#sobre">
+                        Sobre Nos
+                    </a>
+                    <a class="nav-item nav-link" href="#contato">
+                        Contato
+                    </a>
+                </div>
+            </div>
+            <span class="navbar-text">
+                <i class="lni lni-cart" data-container="body" data-toggle="popover" data-html="true"
+                    data-placement="bottom"
+                    data-content="<div class='carrinho my-3 w-100'><i class='lni lni-cart'></i><br><span>Carrinho Vazio</span></div>"></i>
+                <i class="lni lni-user" data-container="body" data-toggle="popover" data-html="true"
+                    data-placement="bottom"
+                    data-content="<button type='button' class='btn btn-danger my-1 w-100'>Criar Conta</button><br><button type='button' class='btn btn-secondary my-1 w-100'>Iniciar Sessão</button>"></i>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./assets/img/carousel/1.png" alt="Primeiro Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                GeekShop
+                            </h5>
+                            <p>
+                                Encontre o seu Look Geek com apenas um clique!
+                            </p>
+                            <a href="">
+                                Veja as Novidades
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/2.png" alt="Segundo Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                GeekShop
+                            </h5>
+                            <p>
+                                Encontre o seu Look Geek com apenas um clique!
+                            </p>
+                            <a href="">
+                                Veja as Novidades
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/3.png" alt="Terceiro Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                GeekShop
+                            </h5>
+                            <p>
+                                Encontre o seu Look Geek com apenas um clique!
+                            </p>
+                            <a href="">
+                                Veja as Novidades
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/4.png" alt="Quarto Slide">
+                        <div class="carousel-caption d-md-block">
+                            <h5>
+                                GeekShop
+                            </h5>
+                            <p>
+                                Encontre o seu Look Geek com apenas um clique!
+                            </p>
+                            <a href="">
+                                Veja as Novidades
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">
+                        Anterior
+                    </span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">
+                        Próximo
+                    </span>
+                </a>
+            </div>
+        </section>
+        <section id="destaques">
+            <div>
+                <h2>
+                    <i class="lni lni-stats-up"></i>
+                    Destaques da Semana
+                    <span class="badge badge-info">9+</span>
+                </h2>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/destaques/1.png" alt="Decoração Sonserina">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Decoração Sonserina
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 15,00
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/destaques/2.png" alt="Anel Grifinória">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Anel Grifinória
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 10,00
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/destaques/3.png" alt="Copo com Tampa">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Copo com Tampa
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 40,00
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/destaques/4.png" alt="Bordado Corvinal">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Bordado Corvinal
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 40,00
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ultimos">
+            <div>
+                <h2>
+                    <i class="lni lni-timer"></i>
+                    Últimos Adicionados
+                    <span class="badge badge-warning">9+</span>
+                </h2>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/ultimos/1.png" alt="Decoração Sonserina">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Cobertor Sonserina
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 80,00
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/ultimos/2.png" alt="Cobertor Corvinal">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Cobertor Corvinal
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 80,00
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/ultimos/3.png" alt="Cobertor Grifinória">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Cobertor Grifinória
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 80,00
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://img.ltwebstatic.com/images3_pi/2023/07/18/168966478760eea1f5fbcdef97a5221bc0ac065728_thumbnail_358x.webp"
+                            alt="Cobertor Lufa Lufa">
+                        <div class="card-img-overlay">
+                            <a href="">
+                                <p class="card-text">
+                                    Comprar
+                                </p>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-fill"></i>
+                                <i class="lni lni-star-half"></i>
+                            </p>
+                            <h5 class="card-title">
+                                Cobertor Lufa Lufa
+                                <br>
+                                Harry Potter
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                R$ 80,00
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <div>
+                <div class="container">
+                    <div id="quemsomos">
+                        <div>
+                            <h2>
+                                Quem Somos
+                            </h2>
+                            <p>
+                                O GeekShop é um site inovador e intuitivo, projetado especialmente para os entusiastas da cultura geek, gamers, fãs de quadrinhos, filmes e séries. 
+                                <br>
+                                Aqui, com apenas um clique, você encontrará o seu look geek perfeito para expressar sua paixão pela cultura nerd de forma única e estilosa!
+                            </p>
+                        </div>
+                        <div>
+                            <img src="./assets/img/logos/logotipo_1.png" alt="Geek Shop">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <form>
+                <h2>
+                    Contate Nos
+                </h2>
+                <p>
+                    Deixe-nos uma mensagem. Entraremos em contato o mais rápido.
+                </p>
+                <div class="form-group">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+                </div>
+                <div class="form-group">
+                    <label for="assunto">
+                        Assunto
+                    </label>
+                    <input type="password" class="form-control" id="assunto" placeholder="Assunto">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">
+                        Mensagem
+                    </label>
+                    <textarea class="form-control" id="mensagem" placeholder="Deixe sua mensagem aqui" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Enviar Mensagem
+                    &nbsp;
+                    <i class="uil uil-message"></i>
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-light">
+        <div>
+            <div>
+                <img src="./assets/img/logos/logotipo_2.png" alt="Logo">
+                <h2>
+                    GeekShop
+                </h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#destaques">
+                            Destaques
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ultimos">
+                            Últimos Adicionados
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sobre">
+                            Sobre Nos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contato">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span>
+            &copy;
+            Desenvolvido por <a href="https://github.com/RaquelStefany" target="_blank">Raquel Stefany</a>
+        </span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>
